@@ -83,27 +83,27 @@ https://www.kaggle.com/vik2012kvs/high-value-customers-identification
 
 
 ### Tasks
-- Quem são as pessoas elegíveis para participar do programa de Insiders? 
-* O que significa ser elegível? Para a empresa, o que é exatamente um cliente valioso?
-* Assumiremos que alto valor seja sinônimo de Lifetime Value (LTV)
+> Quem são as pessoas elegíveis para participar do programa de Insiders? 
+ * O que significa ser elegível? Para a empresa, o que é exatamente um cliente valioso?
+ * Assumiremos que alto valor seja sinônimo de Lifetime Value (LTV)
 
-- Quantos clientes farão parte do grupo??
-* Determinar o cluster Insiders
-* Contar quantos clientes estão no grupo e qual o percentual em relação ao número total de clientes
+> Quantos clientes farão parte do grupo? 
+ * Determinar o cluster Insiders  
+ * Contar quantos clientes estão no grupo e qual o percentual em relação ao número total de clientes  
 
-- Quais as principais características desses clientes?
+> Quais as principais características desses clientes?
 * Determinar o cluster Insiders
 * Descrever os clientes do grupo em termos dos valores médios dos atributos utilizados na clusterização
 
-- Qual a porcentagem de contribuição do faturamento, vinda do Insiders??
+> Qual a porcentagem de contribuição do faturamento, vinda do Insiders?
 * Determinar o cluster Insiders
 * Calcular o faturamento acumulado obtido pelo grupo e dividir pelo faturamento total obtido pela base
 
-- Quais as condições para uma pessoa ser elegível ao Insiders??
+> Quais as condições para uma pessoa ser elegível ao Insiders?
 * Determinar o cluster Insiders
 * Determinar o intervalo de confiança (de variação dos atributos) a ser considerado para elegibilidade e verificar o quão próximo da média do grupo está o comportamento do cliente
 
-- What are the conditions for a person to be removed from the Insiders program?
+> Quais as condições para uma pessoa ser removida do Insiders?
 * Determinar o cluster Insiders
 * Determinar o intervalo de confiança (de variação dos atributos) a ser considerado para elegibilidade e verificar o quão longe da média do grupo está o comportamento do cliente
 
@@ -174,10 +174,6 @@ Plan deployment architecture and implement it.
 
 ![deployment-architecture](references/deploy_producao.png)
 
-**Confira o dashboard final elaborado para apresentar a solução do problema**
-
-<--!http://insiders-project.herokuapp.com/public/dashboard/bf29cd43-922f-4a0c-bc2f-27d9d8336e29-->
-
 
 # **CONCLUSÕES**
 
@@ -190,8 +186,6 @@ Problemas de clusterização são significativamente mais complexos de resolver,
 **Como utilizar as ferramentas da AWS (S3, EC2 and RDS), que oferecem uma plataforma de solução mais robusta para as empresas**
 
 **Como criar um dashboard na ferramenta Metabse**
-
-**Create an interim solution so as to give the business team something to work on until a more elaborate solution is delivered.**
 
 **Como desenvolver soluções intermediárias e de melhorias graduais ao longo do projeto, entregando valor mais rapidamente ao time de negócios até apresentar a solução final robusta e melhor acabada.**
 
@@ -212,4 +206,5 @@ Problemas de clusterização são significativamente mais complexos de resolver,
 **Hypothesis**: elaborar e validar mais hipóteses de negócio a fim de aprofundar o entendimento do problema.
 
 **Code**: revisar e reescrever o código a fim de melhorar a clareza na leitura, como também diminuir o consumo de recursos computacionais.
+
 
