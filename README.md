@@ -1,4 +1,4 @@
-![insiders_clustering_cover](https://user-images.githubusercontent.com/51702682/141386671-d7a49b8c-ec12-4c0c-8d45-d12225cc03bd.png)
+![insiders_clustering_cover](insiders_cover.png)
 
 #### Insiders Clustering
 ## O Contexto do Problema de Negócio
@@ -26,5 +26,3 @@ Como resultado para esse projeto, é esperada a entrega da lista de pessoas eleg
 
 ## O planejamento da solução
 [Detalhes do projeto](https://github.com/geordanogg/Insiders_Clustering/tree/master/insiders_clustering)
-
-
