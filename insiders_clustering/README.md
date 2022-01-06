@@ -110,7 +110,7 @@ https://www.kaggle.com/vik2012kvs/high-value-customers-identification
 
 # **CICLO DO PROJETO**
 
-![crisp-ds](references/crisp_ds.png)
+![crisp](references/crisp.png)
 
 ## Step 00. Settings
 * Importação das bibliotecas, pacotes e funções necessárias.
@@ -172,7 +172,7 @@ Plan deployment architecture and implement it.
 
 **A seguinte imgagem explica a arquitetura de deploy utilizada na solução deste problema**
 
-![deployment-architecture](references/deploy_producao.png)
+![deployment](references/deploy_insiders.png)
 
 
 # **CONCLUSÕES**
