@@ -220,11 +220,11 @@ Problemas de clusterização são significativamente mais complexos de resolver,
 
 # **LIÇÕES APRENDIDAS**
 
-**Como desenvolver um projeto de data Science não supervisionado**
+**Como desenvolver um projeto de Data Science não supervisionado**
 
 **Como utilizar as ferramentas da AWS (S3, EC2 and RDS), que oferecem uma plataforma de solução mais robusta para as empresas**
 
-**Como criar um dashboard na ferramenta Metabse**
+**Como criar um dashboard na ferramenta Metabase**
 
 **Como desenvolver soluções intermediárias e de melhorias graduais ao longo do projeto, entregando valor mais rapidamente ao time de negócios até apresentar a solução final robusta e melhor acabada.**
 
@@ -245,3 +245,8 @@ Problemas de clusterização são significativamente mais complexos de resolver,
 **Hypothesis**: elaborar e validar mais hipóteses de negócio a fim de aprofundar o entendimento do problema.
 
 **Code**: revisar e reescrever o código a fim de melhorar a clareza na leitura, como também diminuir o consumo de recursos computacionais.
+
+
+# LICENSE
+
+# All Rights Reserved - Comunidade DS 2021
