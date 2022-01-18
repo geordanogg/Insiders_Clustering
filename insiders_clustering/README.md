@@ -34,7 +34,7 @@ Como resultado para esse projeto, é esperada a entrega de uma lista de pessoas 
 **Referências:**
 
 https://sejaumdatascientist.com/como-criar-um-programa-de-fidelidade-para-empresa/
-    
+
 https://www.kaggle.com/vik2012kvs/high-value-customers-identification
 
 
@@ -83,11 +83,11 @@ https://www.kaggle.com/vik2012kvs/high-value-customers-identification
 
 
 ### Tasks
-> Quem são as pessoas elegíveis para participar do programa de Insiders? 
+> Quem são as pessoas elegíveis para participar do programa de Insiders?
  * O que significa ser elegível? Para a empresa, o que é exatamente um cliente valioso?
  * Assumiremos que alto valor seja sinônimo de Lifetime Value (LTV)
 
-> Quantos clientes farão parte do grupo? 
+> Quantos clientes farão parte do grupo?
  * Determinar o cluster Insiders  
  * Contar quantos clientes estão no grupo e qual o percentual em relação ao número total de clientes  
 
@@ -117,7 +117,7 @@ https://www.kaggle.com/vik2012kvs/high-value-customers-identification
 * Carregamento e verificação dos dados disponíveis através de um arquivo CSV.
 
 ## Step 01. Data Description:
-* Renomeção das colunas e verificação do tamanho do dataset (avaliar a necessidade de ferramentas para tratar grande volume de dados).
+* Renomeação das colunas e verificação do tamanho do dataset (avaliar a necessidade de ferramentas para tratar grande volume de dados).
 * Verificação dos tipos de dados em cada coluna e mudanças de tipo que se façam necessárias para melhor tratamento pelos algoritmos posteriormente
 * Verificação de dados faltantes e decisão de como tratá-los (remoção, reamostragem artificial, inviabilidade da solução)
 * Breve descrição estatística dos atributos numéricos e categóricos a fim de detectar anomalias que fogem do escopo do problema, bem como a presença de possíveis outliers que irão impactar a performance dos algoritmos posteriormente.
@@ -129,12 +129,11 @@ https://www.kaggle.com/vik2012kvs/high-value-customers-identification
 Criação de variáveis (features) relevantes para a resolução do problema
 
 ## Step 04. Exploratory Data Analysis:
-* Análise isolada de cada feature e sua realação com as demais. 
-* Exploração dos dados a fim de obter uma intuição da distribuição dos mesmos no espaço de dados (exploração de embedding). 
+* Análise isolada de cada feature e sua relação com as demais.
+* Exploração dos dados a fim de obter uma intuição da distribuição dos mesmos no espaço de dados (exploração de embedding).
 
 ## Step 05. Data Preparation:
-Prepare data so that the Machine Learning models can more easily learn and perform more accurately. Then create an embedded space for data.
-* Preparação dos dados a fim de ajudar os modelos de machine learning a aprenderem e performarem com maior acurácia. 
+* Preparação dos dados a fim de ajudar os modelos de machine learning a aprenderem e performarem com maior acurácia.
 * Seleção do espaço de embedding mais adequado ao problema
 
 ## Step 06. Feature Selection:
@@ -148,17 +147,14 @@ Prepare data so that the Machine Learning models can more easily learn and perfo
 * Treino dos modelos com os melhores parâmetros encontrados e medição da sua performance
 
 ## Step 09. Cluster Analysis
-Analyse clusters after Machine Learning modelling.
 * Inspeção visual do espaço de dados montado por cada modelo
 * Análise do profile (atributos) de cada cluster para cada modelo treinado
 * Escolha do modelo final que apresenta a melhor performance
 
 ## Step 10. Exploratory Data Analysis for Business:
-Test business hypotheses and answer business questions. 
-* Criação e teste das hipóteses de negócio e elaboração das respostas para as perguntas de negócio 
+* Criação e teste das hipóteses de negócio e elaboração das respostas para as perguntas de negócio
 
 ## Step 11. Deploy to Production:
-Plan deployment architecture and implement it.
 * Planejamento e implementação da arquitetura de deploy do modelo
 * Criação do banco de dados que será utilizado na solução do problema
 
@@ -167,6 +163,49 @@ Plan deployment architecture and implement it.
 - **O grupo Insiders contribui com 30.33% do faturamento da empresa,** equivalente a $2,3 milhões
 - **Em média, a receita gerada pelos clientes do grupo Insiders é 185x maior do que a receita gerada pelos clientes do cluster que gastam menos**
 - **Em média, a frequência de compras do grupo Insiders é 14,36% e 117% maior do que a frequência de compras do segundo e terceiro grupos de clientes de melhor desempenho, respectivamente**
+
+# **BUSINESS RESULTS**
+>Respondendo às questões de negócio propostas
+
+### *Quem são as pessoas elegíveis para participar do programa de Insiders?*
+Lista de Customer_id  
+[15311, 16029, 17511, 13408, 13694, 12748, 14911, 17841, 13777, 17381, 15061, 14156, 13798, 14680, 16013, 17949, 15769, 13081, 13089, 16422, 17450, 15838, 18102, 17857, 14298, 17404, 16684, 12931, 14646, 13027, 12415, 14088, 13098, 16333, 12901, 14096]
+
+### *Quantos clientes farão parte do grupo?*
+Total de Clientes que farão parte do grupo Insiders: 36 (1.30 % da base)
+
+### *Quais as principais características desses clientes?*
+- Faturamento(compras) Médio               66079.42  
+- Faturamento(retornos) Médio              -1914.10  
+- Recência Média                              10.03  
+- Quantidade Média de Compras                 49.72  
+- Variedade Média de Produtos Comprados      366.64  
+- Quantidade Média de Items Comprados      38902.06  
+- Média do Ticket Médio                      205.74  
+- Média da Recência entre compras             16.14  
+- Frequência Média de Compras                  0.14  
+- Quantidade Média de Itens Devolvidos       962.92  
+- Frequência Média de Devoluções               0.14  
+- Média do Basket Size Médio                1124.21  
+- Média do Basket Variety Médio                8.85  
+- Percentual Médio de Itens Devolvidos         0.03  
+- Percentual Médio de Saldo Faturado           0.97  
+
+### *Qual a porcentagem de contribuição do faturamento, vinda do Insiders?*
+- Percentual do faturamento do Insiders: 30.33 % do Total  
+
+### *Quais as condições para uma pessoa ser elegível ao Insiders?*
+- Faixa de faturamento para ser elegível ao Insiders: $44836.16 a $87322.68
+- Faixa de recência para ser elegível ao Insiders: 3 a 17 dias
+- Faixa de frequência para ser elegível ao Insiders: 0.101 a 0.182 compras/dia
+
+### *Quais as condições para uma pessoa ser removida do Insiders?*
+- Apresentar performance abaixo da faixa de elegibilidade das métricas do Insiders
+
+ *A seguinte imagem mostra o dashboard construído na ferramenta Metabase. Com este recurso o time de marketing pode acompanhar o desempenho de cada cluster e perceber quais estão mais próximos de atingir a meta de faturamento estipulada para cada grupo de clientes*
+
+<!---https://dashboard-insiders-gds.herokuapp.com/-->
+![dashboard_metabase](references/dashboard.png)
 
 # **BUSINESS SOLUTION**
 
@@ -177,7 +216,7 @@ Plan deployment architecture and implement it.
 
 # **CONCLUSÕES**
 
-Problemas de clusterização são significativamente mais complexos de resolver, uma vez que a ausência de uma variável resposta, típica de problemas não-supervisionados, nos obriga a nos aprofundar mais no entendimento do negócio a fim de nos guiar na tomada de decisões de quais modelos implementar, quais features derivar e quais informações são realmente relevantes para o problema. A análise dos dados deixa de ser meramente matemática e estatística e demanda mais interpretação e intuição em relação ao negócio e o problema em questão.
+Problemas de clusterização são significativamente mais complexos de resolver, uma vez que a ausência de uma variável resposta, típica de problemas não-supervisionados, nos obriga a nos aprofundar mais no entendimento do negócio a fim de nos guiar na tomada de decisões de quais modelos implementar, quais *features* derivar e quais informações são realmente relevantes para o problema. A análise dos dados deixa de ser meramente matemática e estatística e demanda mais interpretação e intuição em relação ao negócio e ao problema em questão.
 
 # **LIÇÕES APRENDIDAS**
 
@@ -191,7 +230,7 @@ Problemas de clusterização são significativamente mais complexos de resolver,
 
 **Focar na resolução de problemas de negócios de forma mais essencial do que no uso de ferramentas**
 
-**Compreender a importância decisiva do desenvolvimento cíclico de projetos e perceber qua a melhoria tanto de performance dos modelos quanto de resultados obtidos no negócio é gradualmente obtida à medida que mais ciclos são implementados**
+**Compreender a importância decisiva do desenvolvimento cíclico de projetos e perceber que a melhoria tanto de performance dos modelos quanto de resultados obtidos no negócio é gradualmente obtida à medida que mais ciclos são implementados**
 
 # **PRÓXIMOS PASSOS**
 
@@ -201,10 +240,8 @@ Problemas de clusterização são significativamente mais complexos de resolver,
 
 **Embeddings**: testar outros embeddings que facilitem o agrupamento feito pelos modelos de ML
 
-**Machine Learning Models**: testar mais modelos de ML a fim de obter melhores resultados. 
+**Machine Learning Models**: testar mais modelos de ML a fim de obter melhores resultados.
 
 **Hypothesis**: elaborar e validar mais hipóteses de negócio a fim de aprofundar o entendimento do problema.
 
 **Code**: revisar e reescrever o código a fim de melhorar a clareza na leitura, como também diminuir o consumo de recursos computacionais.
-
-
