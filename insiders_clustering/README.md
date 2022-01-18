@@ -175,21 +175,21 @@ Lista de Customer_id
 Total de Clientes que farão parte do grupo Insiders: 36 (1.30 % da base)
 
 ### *Quais as principais características desses clientes?*
-- Faturamento(compras) Médio               66079.42  
-- Faturamento(retornos) Médio              -1914.10  
-- Recência Média                              10.03  
-- Quantidade Média de Compras                 49.72  
-- Variedade Média de Produtos Comprados      366.64  
-- Quantidade Média de Items Comprados      38902.06  
-- Média do Ticket Médio                      205.74  
-- Média da Recência entre compras             16.14  
-- Frequência Média de Compras                  0.14  
-- Quantidade Média de Itens Devolvidos       962.92  
-- Frequência Média de Devoluções               0.14  
-- Média do Basket Size Médio                1124.21  
-- Média do Basket Variety Médio                8.85  
-- Percentual Médio de Itens Devolvidos         0.03  
-- Percentual Médio de Saldo Faturado           0.97  
+- Faturamento(compras) Médio:               66079.42  
+- Faturamento(retornos) Médio:              -1914.10  
+- Recência Média:                              10.03  
+- Quantidade Média de Compras:                 49.72  
+- Variedade Média de Produtos Comprados:      366.64  
+- Quantidade Média de Items Comprados:      38902.06  
+- Média do Ticket Médio:                      205.74  
+- Média da Recência entre compras:             16.14  
+- Frequência Média de Compras:                  0.14  
+- Quantidade Média de Itens Devolvidos:       962.92  
+- Frequência Média de Devoluções:               0.14  
+- Média do Basket Size Médio:                1124.21  
+- Média do Basket Variety Médio:                8.85  
+- Percentual Médio de Itens Devolvidos:         0.03  
+- Percentual Médio de Saldo Faturado:           0.97  
 
 ### *Qual a porcentagem de contribuição do faturamento, vinda do Insiders?*
 - Percentual do faturamento do Insiders: 30.33 % do Total  
